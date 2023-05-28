@@ -19,10 +19,11 @@ body{
    height: 600px;
    padding-left: 90px;
    padding-top: 100px;
-   line-height: 30px;
+   line-height: 37px;
    border-radius: 35px;
    color: green;
    background-color: antiquewhite;
+   font-size: 22px;
    
 }
 label {
