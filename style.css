@@ -102,9 +102,9 @@ button:hover{
 }
 @media(max-width:572px){
     .logo{
-        height: 100px;
+        height: 68px;
         padding-top: 5px;
-        padding-bottom: 30px;
+        padding-bottom:0;
     }
     .login, .signup{
         top:60%;
@@ -119,11 +119,7 @@ button:hover{
     }
 }
 @media(max-width:400px){
-    .logo{
-        height: 130px;
-        padding-top: 20px;
-        padding-bottom: 0;
-    }
+   
     .login, .signup{
         
      
