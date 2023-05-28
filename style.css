@@ -96,6 +96,9 @@ button:hover{
         font-size:25px;
         line-height: 45px;
     }
+    input{
+        width: 250px;
+    }
 }
 @media(max-width:572px){
     .logo{
