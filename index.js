@@ -1,0 +1,10 @@
+document.getElementById('changetosign').addEventListener('click',(e)=>{
+    e.preventDefault();
+    document.getElementById('signup').style.display="inline";
+    document.getElementById('login').style.display="none";
+})
+document.getElementById('changetolog').addEventListener('click',(e)=>{
+    e.preventDefault();
+    document.getElementById('signup').style.display="none";
+    document.getElementById('login').style.display="inline";
+})

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    background-image: url(./markus-spiske-k0rVudBoB4c-unsplash.jpg);
+    background-size: 100vw 100vh;
+}
+
+.login ,.signup {
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border: 2px solid black;
+   width: 450px;
+   height: 750px;
+   padding-left: 90px;
+   padding-top: 200px;
+   line-height: 30px;
+   border-radius: 35px;
+   color: green;
+   background-color: antiquewhite;
+   
+}
+label {
+    font-weight: 900;
+}
+
+.text{
+    padding: 10px 30px;
+    font-size: 12pt;
+    border-radius: 15px;
+    border-color: black;
+}
+button{
+    margin-top: 25px;
+    width: 120px;
+    height: 35px;
+    margin-left: 18%;
+    background-color: blueviolet;
+    border-radius: 18px;
+    color: white;
+}
+button:hover{
+    background-color: greenyellow ;
+    color: black;
+}
+.signup{
+    display: none;
+   
+}
